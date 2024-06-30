@@ -1,0 +1,71 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+.navbar {
+    background: linear-gradient(to bottom, #773671, #C45A57)
+}
+#cabecalho .nav .nav-link.active {
+    background-color: white;
+    color: #C45A57; 
+}
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: white;
+}
+.navbar-toggler {
+    background: linear-gradient(to bottom right, #C45A57, #fff);
+}
+.section-title {
+    font-family: Pacifico, cursive;
+}
+#sobre-o-restaurante, 
+#cardapio {
+    background: linear-gradient(to bottom, #C45A57, #fff);
+}
+#eventos,
+#fale-conosco {
+    background: linear-gradient(to bottom, #fff, #C45A57);
+}
+.text-colored {
+    color: #83597f;
+}
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color: #773671;
+    color: white;
+}
+.nav-cardapio .nav-link:hover {
+    color: #773671;
+}
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+.social-links li a {
+    text-decoration: none;
+}
+.form-control:focus {
+    color: #773671;
+    border-color: #773671;
+    box-shadow: 0 0 0 0.2rem rgba(119, 54, 113, 0.5); /* Ajuste a sombra conforme necessário */
+}
+.border-custom {
+    border: 2px solid #773671;
+}
+.border-custom-2 {
+    border: 2px solid #773671;
+    border-radius: 16px;
+}
+textarea {
+    resize: none;
+}
+#tel::placeholder {
+    color: #773671;
+}
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
